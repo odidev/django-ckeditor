@@ -26,6 +26,18 @@ matrix:
       env: TOX_ENV=py37-django22
     - python: 3.7
       env: TOX_ENV=py37-django30
+    - python: 3.7
+      arch: arm64
+      env: TOX_ENV=py37-django20
+    - python: 3.7
+      arch: arm64
+      env: TOX_ENV=py37-django21
+    - python: 3.7
+      arch: arm64
+      env: TOX_ENV=py37-django22
+    - python: 3.7
+      arch: arm64
+      env: TOX_ENV=py37-django30
     - python: 3.8
       env: TOX_ENV=py38-django22
     - python: 3.8
